@@ -23,7 +23,7 @@ const students={
     marks: req.body.marks
 };
 results.push(students);
-res.json
+res.json(results)
 })
 
 //delete a results
